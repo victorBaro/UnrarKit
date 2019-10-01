@@ -144,6 +144,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = U73Y25X962;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UnrarExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -198,6 +203,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = U73Y25X962;
 				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -210,7 +216,7 @@
 				);
 				INFOPLIST_FILE = "UnrarExample-Info.plist";
 				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorbaro.UnrarExample;
 				PRODUCT_NAME = UnrarExample;
 			};
 			name = Debug;
@@ -221,6 +227,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = U73Y25X962;
 				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UnrarExample_Prefix.pch;
@@ -234,7 +241,7 @@
 					"-DTARGET_OS_IPHONE",
 					"-DNS_BLOCK_ASSERTIONS=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorbaro.UnrarExample;
 				PRODUCT_NAME = UnrarExample;
 				VALIDATE_PRODUCT = YES;
 			};
